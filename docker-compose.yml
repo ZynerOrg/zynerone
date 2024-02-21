@@ -17,7 +17,7 @@ services:
             - unbound
 
     mariadb:
-      image: mariadb:11.1
+      image: mariadb:11.3
       depends_on:
         - unbound
       stop_grace_period: 45s
